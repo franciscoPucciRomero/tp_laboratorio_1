@@ -31,25 +31,10 @@ que contenga las funciones para realizar las cinco operaciones.
 • Documentar todas las funciones
  */
 
-
-/*
- * validar datos
- * doxycharm// usar
- * factorizar //chequear
- * long int //tamos// no funca
- * define max
- * guia estilos //?
- * bibliotecas //tamos
- * pedir int menu//validacion datos float A y B y int menu
- *
-*/
-
-//agregar bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include "inputOutput.h"
 #include "ecuaciones.h"
-//mi biblioteca
 
 
 int main(void) {
@@ -97,7 +82,6 @@ int main(void) {
 
 			break;
 		case 3 ://ecuaciones
-			//void salida(float resta, float suma ,float division,float producto, long factorialA,long factorialB,int banderaFactorialA,int  banderaFactorialB);
 			if(banderaA==1 && banderaB==1)
 			{
 				banderaTres=1;
@@ -132,9 +116,9 @@ int main(void) {
 			system("pause");
 
 			break;
-		case 5 ://salir//esta linea es necesaria de lo contrario seria tomado como invalido
+		case 5 ://salir
 			break;
-		default://ingreso invalido //podria validar desde el menu capaz mas efectivo. EN CASO DE QUE ME FALLE LA DE MENU, char?
+		default://ingreso invalido
 			printf("\n \n \n OPCION INVALIDA \n \n \n");
 			system("pause");
 			break;
@@ -143,7 +127,7 @@ int main(void) {
 
 	printf("\n\nGracias vuelva pronto. \n");//despedida ingreso==5
 	system("\npause"); //delay para que de vea el mensaje antes de limpiar.
-	printf("\n\n\n\n\n\n\n\n");//limpiar consola //ponele
+	printf("\n\n\n\n\n\n\n\n");//limpiar consola
 
 }
 

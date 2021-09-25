@@ -73,8 +73,8 @@ float multiplicar(float A,float B)
  long long int  factorizar (int numero) //con recursividad
 {
 	 /*la recursividad no es una herramienta recomendada fue utilizada en este
-	   trabajo para demostrar su uso hay mejores manera de resolver este problema
-	    como se demuesta al final de la funcion*/
+	   trabajo para ilustrar su uso (como se menciono que debia hacer en clase) hay mejores manera de
+	   resolver este problema como con el uso de un for */
 	long long int total;
 
 	if (numero==0)
